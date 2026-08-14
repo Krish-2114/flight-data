@@ -1,0 +1,87 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Data
+# =========================
+
+# Raw Bronze data
+data/bronze/*
+!data/bronze/.gitkeep
+
+# Silver data
+data/silver/*
+!data/silver/.gitkeep
+
+# Gold data
+data/gold/*
+!data/gold/.gitkeep
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# IDE
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+# =========================
+# Testing / Coverage
+# =========================
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Build files
+# =========================
+
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
